@@ -1254,7 +1254,7 @@ h1::after {
   content: '';
   position: absolute;
   bottom: 13px;
-  right: -3px;
+  right: 0px;
   background: url(../img/cardMark.svg) no-repeat;
   width: 100%;
   height: 150px;
@@ -2914,7 +2914,7 @@ p {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 359px) {
   .main .main__content .main__contentTop {
     width: calc(328px + (370 - 328) * ((100vw - 360px) / (400 - 360)));
   }
