@@ -681,12 +681,13 @@ h1::after {
   /* color: #000000; */
 }
 
-.sliderWithRealUsages h3 {
+.sliderWithRealUsages a {
   display: inline-block;
   /* margin: -10px 0 0 -28px; */
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   line-height: 28px;
+  color: #3CA9E8;
 
 }
 
