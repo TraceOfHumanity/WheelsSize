@@ -25,10 +25,3 @@ for (let i = 0; i < coll.length; i++) {
     this.classList.toggle('hidden');
   })
 };
-let coll2 = document.getElementsByClassName('sHow');
-for (let i = 0; i < coll2.length; i++) {
-  coll2[i].addEventListener('click', function () {
-    this.previousElementSibling.classList.toggle('active');
-    this.classList.toggle('hidden');
-  })
-};
