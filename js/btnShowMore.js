@@ -17,3 +17,18 @@ document.querySelectorAll('.button__checkP').forEach(function (dropD) {
   })
 
 })
+
+let coll = document.getElementsByClassName('sHow');
+for (let i = 0; i < coll.length; i++) {
+  coll[i].addEventListener('click', function () {
+    this.previousElementSibling.classList.toggle('active');
+    this.classList.toggle('hidden');
+  })
+};
+let coll2 = document.getElementsByClassName('sHow');
+for (let i = 0; i < coll2.length; i++) {
+  coll2[i].addEventListener('click', function () {
+    this.previousElementSibling.classList.toggle('active');
+    this.classList.toggle('hidden');
+  })
+};
