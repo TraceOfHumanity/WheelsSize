@@ -3004,7 +3004,8 @@ p {
   }
 
   .main .main__container .selectedProduct .slider1 {
-    width: calc(380px + (441 - 380) * ((100vw - 320px) / (1130 - 320)));
+    width: calc(330px + (441 - 330) * ((100vw - 320px) / (1130 - 320)));
+    /* width: calc(380px + (441 - 380) * ((100vw - 320px) / (1130 - 320))); */
   }
 
   .main .main__container .selectedProduct .slider1__bigImg {
@@ -3275,7 +3276,7 @@ p {
     height: 63px;
     gap: 7px;
     margin-top: calc(125px + (170 - 125) * ((100vw - 320px) / (767 - 320)));
-    margin-left: calc(-64px + (100 - 72) * ((100vw - 320px) / (767 - 320)));
+    margin-left: calc(-64px + (110 - 72) * ((100vw - 320px) / (767 - 320)));
     position: relative;
     margin-bottom: -79px;
     transform: translateY(-150px);
