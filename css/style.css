@@ -3253,7 +3253,6 @@ p {
     flex-direction: column;
     width: min-content;
     margin: 0 auto;
-    padding-left: 13px;
   }
 
   .slick-slide img {
