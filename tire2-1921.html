@@ -188,74 +188,47 @@
               Show all
             </p>            
           </div>
+
+
           <div class="wheelspecs">
             <h2>
               WHEEL SPECS
             </h2>
-            <div class="wheelspecs__content">
-              <div class="wheelspecs__contentLeft">
-                <ul class="contentLeft-left">
-                  <li class="contentLeft-leftItem">Brand:</li>
-                  <li class="contentLeft-leftItem">Model:</li>
-                  <li class="contentLeft-leftItem">Part Number:</li>
-                  <li class="contentLeft-leftItem">Color:</li>
-                  <li class="contentLeft-leftItem">Backspacing:</li>
-                  <li class="contentLeft-leftItem">Offset:</li>
-                  <li class="contentLeft-leftItem">Wheel Diameter:</li>
-                  <li class="contentLeft-leftItem">Wheel Width:</li>
-                  <li class="contentLeft-leftItem">Hub Bore:</li>
-                </ul>
-                <ul class="contentLeft-right">
-                  <li class="contentLeft-rightItem">Fuel</li>
-                  <li class="contentLeft-rightItem">Rebel</li>
-                  <li class="contentLeft-rightItem">D67918908445</li>
-                  <li class="contentLeft-rightItem">Matte Black <span class="withHidden">with a Simulated</span> </li>
-                  <li class="contentLeft-rightItem">4.5</li>
-                  <li class="contentLeft-rightItem">-12</li>
-                  <li class="contentLeft-rightItem">18</li>
-                  <li class="contentLeft-rightItem">9</li>
-                  <li class="contentLeft-rightItem">106.10</li>
-                </ul>
+            <ul>
+              <li><span class="fw600">Brand:</span><p>Fuel</p></li>
+              <li><span class="fw600">Load Rating:</span><p>2300</p></li>
+              <li><span class="fw600">Model:</span><p>Rebel</p></li>
+              <li><span class="fw600">Wheel Exp. Lugs:</span><p>Yes</p></li>
+              <li><span class="fw600">Part Number:</span><p>D67918908445</p></li>
+              <li><span class="fw600">Wheel Material:</span><p>Alloy</p></li>
+              <li><span class="fw600">Color:</span><p>Matte Black with a Simulated</p></li>
+              <li><span class="fw600">Weight:</span><p>36</p></li>
+              <li><span class="fw600">Backspacing:</span><p>4.5</p></li>
+              <li><span class="fw600">Wheel Structure:</span><p>One Piece</p></li>
+              <div class="showHidden mobileHidden">
+              <li><span class="fw600">Offset:</span><p>-12</p></li>
+              <li><span class="fw600">Wheel Spoke:</span><p>6</p></li>
+              <li><span class="fw600">Wheel Diameter:</span><p>18</p></li>
+              <li><span class="fw600">Bolt Patterns: </span><p>6x135 6x5.5</p></li>
+              <li><span class="fw600">Wheel Width: </span><p>9</p></li>
+              <li><span class="fw600">True Directional:</span><p>No</p></li>
+              <li><span class="fw600">Hub Bore:</span><p>106.10</p></li>
+              <li><span class="fw600">Other Colors:</span><p>
+                <a href="#">Matte Black with a Simulated Beadlock</a>
+                <a href="#">Matte Bronze with a Black Simulated</a>
+                <a href="#">Beadlock</a>
+                <a href="#">Matte Gunmetal Gray with a Black</a>
+                <a href="#">Simulated Beadlock</a>
+              </p></li>
               </div>
-
-              <div class="wheelspecs__contentRight wheelspecs__contentRightHidden">
-                <ul class="contentRight-left">
-                  <li class="contentRight-leftItem">Load Rating:</li>
-                  <li class="contentRight-leftItem">Wheel Exp. Lugs: </li>
-                  <li class="contentRight-leftItem">Wheel Material:</li>
-                  <li class="contentRight-leftItem">Weight:</li>
-                  <li class="contentRight-leftItem">Wheel Structure:</li>
-                  <li class="contentRight-leftItem">Wheel Spoke:</li>
-                  <li class="contentRight-leftItem">Bolt Patterns:</li>
-                  <li class="contentRight-leftItem">True Directional:</li>
-                  <li class="contentRight-leftItem">Other Colors:</li>
-                </ul>
-                <ul class="contentRight-right">
-                  <li class="contentRight-rightItem">2300</li>
-                  <li class="contentRight-rightItem">Yes</li>
-                  <li class="contentRight-rightItem">Alloy</li>
-                  <li class="contentRight-rightItem">36</li>
-                  <li class="contentRight-rightItem">One Piece</li>
-                  <li class="contentRight-rightItem">6</li>
-                  <li class="contentRight-rightItem">6x135 6x5.5</li>
-                  <li class="contentRight-rightItem">No</li>
-                  <li class="contentRight-rightItem"><a href="#">Matte Black with a Simulated Beadlock</a>
-                    <a href="#">Matte Bronze with a Black Simulated</a>
-                    <a href="#">Beadlock</a>
-                    <a href="#">Matte Gunmetal Gray with a Black</a>
-                    <a href="#">Simulated Beadlock</a>
-                  </li>
-                </ul>
-              </div>
-              <p class="showAllRightColumn">Show all</p>
+            </ul>
+            <div class="showAll">Show all</div>
               <script>
                 // script for the show all button
-                document.querySelector('.showAllRightColumn').addEventListener('click', function () {
-                  document.querySelector('.wheelspecs__contentRight').classList.toggle('wheelspecs__contentRightHidden');
+                document.querySelector('.showAll').addEventListener('click', function () {
+                  document.querySelector('.showHidden').classList.toggle('mobileHidden');
                 });
               </script>
-            </div>
-
           </div>
 
           <div class="sliderWithRealUsages">
